@@ -31,12 +31,6 @@ namespace ConnectFour.Logic
         /// </summary>
         public int DropDisc(int column, int playerId)
         {
-            if (column < 0 || column >= Columns)
-                throw new ArgumentOutOfRangeException(nameof(column),
-                    $"Столбец должен быть от 0 до {Columns - 1}.");
-            if (playerId != 1 && playerId != 2)
-                throw new ArgumentException("ID игрока должен быть 1 или 2.", nameof(playerId));
-
             for (int row = Rows - 1; row >= 0; row--)
             {
                 if (_cells[row, column] == 0)

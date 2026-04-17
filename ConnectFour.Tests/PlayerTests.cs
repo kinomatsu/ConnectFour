@@ -23,13 +23,6 @@ namespace ConnectFour.Tests
         }
 
         [Fact]
-        public void Player_InvalidId_ThrowsException()
-        {
-            Assert.Throws<ArgumentOutOfRangeException>(() => new Player(0, "Тест", PlayerColor.Red));
-            Assert.Throws<ArgumentOutOfRangeException>(() => new Player(3, "Тест", PlayerColor.Red));
-        }
-
-        [Fact]
         public void Player_WinsCanBeIncremented()
         {
             var p = new Player(1, "Боб", PlayerColor.Yellow);

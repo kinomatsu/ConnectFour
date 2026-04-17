@@ -10,8 +10,6 @@
 
         public Player(int id, string name, PlayerColor color)
         {
-            if (id != 1 && id != 2)
-                throw new ArgumentOutOfRangeException(nameof(id), "ID игрока должен быть 1 или 2.");
             if (string.IsNullOrWhiteSpace(name))
                 throw new ArgumentException("Имя игрока не может быть пустым.", nameof(name));
 

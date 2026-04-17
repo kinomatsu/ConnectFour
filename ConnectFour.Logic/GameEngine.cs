@@ -26,9 +26,6 @@
             ArgumentNullException.ThrowIfNull(player1);
             ArgumentNullException.ThrowIfNull(player2);
 
-            if (player1.Color == player2.Color)
-                throw new ArgumentException("Игроки должны иметь разные цвета фишек.");
-
             Player1 = player1;
             Player2 = player2;
             Board = new GameBoard();

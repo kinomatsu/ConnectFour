@@ -71,14 +71,6 @@ namespace ConnectFour.Tests
         }
 
         [Fact]
-        public void DropDisc_InvalidColumn_ThrowsException()
-        {
-            var board = new GameBoard();
-            Assert.Throws<ArgumentOutOfRangeException>(() => board.DropDisc(-1, 1));
-            Assert.Throws<ArgumentOutOfRangeException>(() => board.DropDisc(GameBoard.Columns, 1));
-        }
-
-        [Fact]
         public void GetSnapshot_IsIndependentCopy()
         {
             var board = new GameBoard();

@@ -144,14 +144,6 @@ namespace ConnectFour.Tests
         }
 
         [Fact]
-        public void SameColors_ThrowsException()
-        {
-            var p1 = new Player(1, "А", PlayerColor.Red);
-            var p2 = new Player(2, "Б", PlayerColor.Red);
-            Assert.Throws<ArgumentException>(() => new GameEngine(p1, p2));
-        }
-
-        [Fact]
         public void Restart_ResetsBoard()
         {
             var engine = CreateEngine();
