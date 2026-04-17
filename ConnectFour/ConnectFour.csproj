@@ -9,7 +9,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\ConnectFour.Logic\ConnectFour.Logic.csproj" />
+    <ProjectReference Include="..\ConnectFour.Logic\ConnectFour.Logic.csproj" />
   </ItemGroup>
 
 </Project>
