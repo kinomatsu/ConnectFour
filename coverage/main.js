@@ -290,10 +290,10 @@ var assemblies = [
   {
     "name": "ConnectFour.Logic",
     "classes": [
-      { "name": "ConnectFour.Logic.GameBoard", "rp": "ConnectFour.Logic_GameBoard.html", "cl": 41, "ucl": 4, "cal": 45, "tl": 86, "cb": 21, "tb": 28, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
-      { "name": "ConnectFour.Logic.GameEngine", "rp": "ConnectFour.Logic_GameEngine.html", "cl": 69, "ucl": 8, "cal": 77, "tl": 125, "cb": 20, "tb": 32, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
+      { "name": "ConnectFour.Logic.GameBoard", "rp": "ConnectFour.Logic_GameBoard.html", "cl": 37, "ucl": 3, "cal": 40, "tl": 80, "cb": 14, "tb": 20, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
+      { "name": "ConnectFour.Logic.GameEngine", "rp": "ConnectFour.Logic_GameEngine.html", "cl": 67, "ucl": 8, "cal": 75, "tl": 122, "cb": 18, "tb": 30, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
       { "name": "ConnectFour.Logic.MoveResult", "rp": "ConnectFour.Logic_MoveResult.html", "cl": 12, "ucl": 0, "cal": 12, "tl": 20, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
-      { "name": "ConnectFour.Logic.Player", "rp": "ConnectFour.Logic_Player.html", "cl": 15, "ucl": 1, "cal": 16, "tl": 26, "cb": 6, "tb": 6, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
+      { "name": "ConnectFour.Logic.Player", "rp": "ConnectFour.Logic_Player.html", "cl": 13, "ucl": 1, "cal": 14, "tl": 24, "cb": 2, "tb": 2, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
       { "name": "ConnectFour.Logic.WinChecker", "rp": "ConnectFour.Logic_WinChecker.html", "cl": 35, "ucl": 0, "cal": 35, "tl": 64, "cb": 14, "tb": 14, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
       { "name": "ConnectFour.Logic.WinResult", "rp": "ConnectFour.Logic_WinResult.html", "cl": 7, "ucl": 0, "cal": 7, "tl": 15, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
     ]},
@@ -310,7 +310,7 @@ var riskHotspotMetrics = [
 
 var riskHotspots = [
   {
-    "assembly": "ConnectFour.Logic", "class": "ConnectFour.Logic.GameEngine", "reportPath": "ConnectFour.Logic_GameEngine.html", "methodName": "MakeMove(System.Int32)", "methodShortName": "MakeMove(...)", "fileIndex": 0, "line": 55,
+    "assembly": "ConnectFour.Logic", "class": "ConnectFour.Logic.GameEngine", "reportPath": "ConnectFour.Logic_GameEngine.html", "methodName": "MakeMove(System.Int32)", "methodShortName": "MakeMove(...)", "fileIndex": 0, "line": 52,
     "metrics": [
       { "value": 26, "exceeded": false },
       { "value": 24, "exceeded": true },
